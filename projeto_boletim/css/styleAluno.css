@@ -1,0 +1,72 @@
+.titulo{
+    font-family: Bahnschrift;
+    font: bolder;
+    color: rgb(0, 0, 0);
+    font-size:40px;
+
+}
+
+div.container{
+    display: flex;
+    font-family:Bahnschrift;
+}
+.Aluno
+{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: aliceblue;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    border:solid rgb(255, 231, 13);
+    margin-right: 15px;
+}
+.tabela{
+    background-color: rgba(0, 0, 0, 0.808);
+    color: aliceblue;    
+    border-radius: 20px;
+    border-collapse:collapse;
+    width: 100%;
+    height: 50%;
+    border:solid rgb(255, 231, 13);
+    
+}
+th
+{
+    padding: 10px;
+    align-self: center;
+}
+td{
+  padding: 10px;
+ 
+}
+body{
+    position: relative;
+    height: 100vh;
+    background-image: url('wp5952243-sailor-moon-aesthetic-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
+}
+.total
+{
+    font-size: 13px;
+    border: solid rgb(255, 231, 13);
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.808);
+    top: 5px;
+    padding: 5px;
+    font-family:Bahnschrift;
+}
+.obs{
+    top: 2px;
+    width: 97%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgb(255, 231, 13);
+}

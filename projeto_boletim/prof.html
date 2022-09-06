@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleprof.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="menu">
+            <h2>Menu de atribuição de notas</h2><br><br>
+            <form method="get">
+                Aluno: <input type="text" name="aluno" id="aluno"><br><br>
+                Disciplina: <select name="disciplinas" id="disciplinas">
+                    <option value=""></option>
+                    <option value="ds">Desenvolvimento de sistemas</option>
+                    <option value="bd">Banco de dados</option>
+                    <option value="pweb">Programação web</option>
+                    <option value="mobile">Programação mobile</option>
+                </select><br><br>
+                <div class="notas">
+                    <p>Menção</p><br>
+                    1º Sem: <input type="number" name="ps" id="ps"><br><br>
+                    2º Sem: <input type="number" name="ss" id="ss"><br><br>
+                    3º Sem: <input type="number" name="ts" id="ts"><br><br><br>
+                    Menção final: <input type="number" name="media"><br><br>
+                    Observação: <br><textarea name="" id="" cols="40" rows="5"></textarea>
+                </div>
+                <div class="frequencia">
+                    <p>Frequência (%)</p><br>
+                    1º Sem: <input type="number" name="ps" id="ps"><br><br>
+                    2º Sem: <input type="number" name="ss" id="ss"><br><br>
+                    3º Sem: <input type="number" name="ts" id="ts"><br><br>
+                </div>
+                <input class="enviar" type="submit" value="Enviar">
+            </form>
+        </div>
+
+    </main>
+</body>
+
+</html>
